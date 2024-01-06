@@ -9,7 +9,6 @@ const MainTour = ({ tours }) => {
         <div className={style.show_all}>
           <a href="/tours">
             <span className={style.medium_14px}>Show all </span>
-
             <img src={rightArrow} alt="show-all" />
           </a>
         </div>
@@ -18,10 +17,22 @@ const MainTour = ({ tours }) => {
         {tours.map((tour) => (
           <div className={style.tour_card} key={tour.id}>
             <img src={"./images/" + tour.imagelink} alt={tour.name} />
-            <div className="tour-desc-container">
-              <h3 className="tour-name">{tour.name}</h3>
-              <p className="tour-desc">{tour.desc}</p>
-              <p className="tour-duration">
+            <div className={style.tour_desc_container}>
+              <h3 className={style.medium_30px + " " + style.mrgn_btm_12px}>
+                {tour.name}
+              </h3>
+              <p
+                className={
+                  style.mrgn_btm_12px +
+                  " " +
+                  style.medium_14px +
+                  " " +
+                  style.gray
+                }
+              >
+                {tour.desc}
+              </p>
+              <p className={style.gray + " " + style.tour_duration}>
                 {tour.days} days {tour.nights} nights
               </p>
             </div>

@@ -6,6 +6,8 @@ import ShirvanshahMosque from "../Assets/Images/web-images/shirvanshah-mosque.sv
 import Buttons from "../Components/Buttons";
 import MainTour from "../Components/MainTour";
 import { tours } from "../Data";
+import Partners from "../Components/Partners";
+import Project from "../Components/Contacts";
 export default function HomePage() {
   return (
     <>
@@ -20,6 +22,8 @@ export default function HomePage() {
         </div>
         <Buttons />
         <MainTour tours={tours.slice(0, 3)} />
+        <Partners />
+        <Project />
         <Footer />
       </div>
     </>

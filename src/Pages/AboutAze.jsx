@@ -1,9 +1,14 @@
 import React from "react";
+import Header from "../Components/Header";
+import Contacts from "../Components/Contacts";
+import Footer from "../Components/Footer";
 
 export default function AboutAze() {
   return (
     <div>
-      <h1>About Azerbaijan</h1>
+      <Header />
+      <Contacts />
+      <Footer />
     </div>
   );
 }

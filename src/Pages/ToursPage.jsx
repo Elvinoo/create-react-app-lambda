@@ -1,5 +1,11 @@
 import React from "react";
 
 export default function ToursPage() {
-  return <div>Tours</div>;
+  return (
+    <div>
+      <Header />
+      <Contacts />
+      <Footer />
+    </div>
+  );
 }

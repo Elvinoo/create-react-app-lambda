@@ -1,0 +1,149 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.container {
+  width: 100%;
+  position: relative;
+}
+.wrapper {
+  width: 100%;
+  padding: 1.6% 6.6%;
+}
+.full_screen {
+  width: 100%;
+  display: block;
+}
+
+.img {
+  width: 100%;
+  display: block;
+  margin-bottom: 25px;
+}
+.flex_justify_btw {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right {
+  gap: 5.625rem;
+}
+.logo_size {
+  width: 10.3%;
+}
+.select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 5px;
+  border: none;
+}
+.norm_16px {
+  font-size: 16px;
+  font-weight: 400;
+}
+.bold_40px {
+  font-size: 40px;
+  font-weight: 700;
+}
+.medium_14px {
+  font-size: 14px;
+  font-weight: 500;
+}
+.black_bg {
+  background: #000000;
+}
+.white_col {
+  color: #ffffff;
+}
+.footer_padding {
+  padding: 1.45% 6.6%;
+}
+.buttons_before_hover {
+  position: fixed;
+  bottom: 6%;
+  left: 39%;
+  display: flex;
+  gap: 0.65%;
+  width: 100%;
+}
+
+.buttons_after_hover {
+  width: 100%;
+  position: fixed;
+  bottom: 6%;
+  left: 17.5%;
+  display: flex;
+  gap: 0.65%;
+  align-items: center;
+}
+.btn {
+  border-radius: 210px;
+  padding: 1% 2.9%;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+.home {
+  background: #ffe141;
+}
+.menu {
+  background: #f4f4f480;
+  border: 1px solid #0000004d;
+}
+.menu_hover {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f4f4f480;
+  border: 1px solid #0000004d;
+  padding: 1.12% 2.5%;
+  border-radius: 120px;
+  width: 55%;
+}
+.menu_hover a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+}
+.menu_hover li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+.li::before {
+  display: inline-block;
+  content: "";
+  height: 1rem;
+  width: 1rem;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.menu_hover li:hover::before {
+  background-color: #ffe141;
+}
+.tour_card_cont {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.tour_card {
+  width: 32%;
+}
+.tour_card img {
+  width: 100%;
+}
+.show-all {
+  align-self: flex-end;
+}
+.main_tour_head {
+  margin-bottom: 25px;
+}

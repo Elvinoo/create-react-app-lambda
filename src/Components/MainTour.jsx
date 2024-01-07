@@ -1,7 +1,14 @@
+// MainTour.js
+import React from "react";
 import style from "../Pages/HomePage.module.css";
 import rightArrow from "../Assets/Images/web-images/Vector5.svg";
 
-const MainTour = ({ tours, onShowMore }) => {
+const MainTour = ({ tours, initialDisplayCount, onShowMore }) => {
+  const displayedTours = tours.slice(0, initialDisplayCount);
+
+  const showMoreButtonLabel =
+    tours.length > initialDisplayCount ? "Show More" : "Show Less";
+
   return (
     <div className={style.wrapper}>
       <div className={style.flex_justify_btw + " " + style.main_tour_head}>
@@ -16,7 +23,7 @@ const MainTour = ({ tours, onShowMore }) => {
         </div>
       </div>
       <div className={style.tour_card_cont}>
-        {tours.map((tour) => (
+        {displayedTours.map((tour) => (
           <div className={style.tour_card} key={tour.id}>
             <img src={"./images/" + tour.imagelink} alt={tour.name} />
             <div className={style.tour_desc_container}>
@@ -42,7 +49,7 @@ const MainTour = ({ tours, onShowMore }) => {
         ))}
       </div>
       <button className={style.showMoreButton} onClick={onShowMore}>
-        Show more
+        {showMoreButtonLabel}
       </button>
     </div>
   );

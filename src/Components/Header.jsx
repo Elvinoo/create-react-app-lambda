@@ -9,8 +9,13 @@ export default function Header() {
           <img src={headLogo} alt="logo" />
         </div>
         <div className={style.flex_justify_btw + " " + style.right}>
-          <span className={style.norm_16px}>+994515855564</span>
-          <span className={style.norm_16px}> incoming@vatravel.az</span>
+          <span className={style.norm_16px + " " + style.mob_no}>
+            +994515855564
+          </span>
+          <span className={style.norm_16px + " " + style.mob_no}>
+            {" "}
+            incoming@vatravel.az
+          </span>
           <select className={style.select} name="language" id="">
             <option value="english">EN</option>
             <option value="italian">IT</option>

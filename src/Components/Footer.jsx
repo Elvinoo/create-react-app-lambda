@@ -10,15 +10,9 @@ export default function Footer() {
             <img src={footLogo} alt="logo" />
           </div>
           <div className={style.flex_justify_btw + " " + style.right}>
-            <span className={style.norm_16px + " " + style.white_col}>
-              Instagram
-            </span>
-            <span className={style.norm_16px + " " + style.white_col}>
-              Linkedin
-            </span>
-            <span className={style.norm_16px + " " + style.white_col}>
-              Facebook
-            </span>
+            <a className={style.norm_16px + " " + style.white_col}>Instagram</a>
+            <a className={style.norm_16px + " " + style.white_col}>Linkedin</a>
+            <a className={style.norm_16px + " " + style.white_col}>Facebook</a>
           </div>
         </footer>
       </div>

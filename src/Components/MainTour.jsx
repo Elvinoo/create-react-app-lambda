@@ -1,14 +1,16 @@
 import style from "../Pages/HomePage.module.css";
 import rightArrow from "../Assets/Images/web-images/Vector5.svg";
 
-const MainTour = ({ tours }) => {
+const MainTour = ({ tours, onShowMore }) => {
   return (
     <div className={style.wrapper}>
       <div className={style.flex_justify_btw + " " + style.main_tour_head}>
         <h1 className={style.bold_40px}>Tours</h1>
         <div className={style.show_all}>
           <a href="/tours">
-            <span className={style.medium_14px}>Show all </span>
+            <span className={style.medium_14px + " " + style.mob_no}>
+              Show all{" "}
+            </span>
             <img src={rightArrow} alt="show-all" />
           </a>
         </div>
@@ -39,6 +41,9 @@ const MainTour = ({ tours }) => {
           </div>
         ))}
       </div>
+      <button className={style.showMoreButton} onClick={onShowMore}>
+        Show more
+      </button>
     </div>
   );
 };

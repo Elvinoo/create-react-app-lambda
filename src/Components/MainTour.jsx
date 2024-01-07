@@ -7,7 +7,7 @@ const MainTour = ({ tours, initialDisplayCount, onShowMore }) => {
   const displayedTours = tours.slice(0, initialDisplayCount);
 
   const showMoreButtonLabel =
-    tours.length > initialDisplayCount ? "Show More" : "Show Less";
+    tours.length > initialDisplayCount ? "Show more" : "Show less";
 
   return (
     <div className={style.wrapper}>

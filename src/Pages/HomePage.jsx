@@ -14,9 +14,13 @@ export default function HomePage() {
   const [initialDisplayCount, setInitialDisplayCount] = useState(3);
 
   const handleShowMoreLess = () => {
-    setInitialDisplayCount((prevCount) =>
-      Math.min(prevCount + 1, tours.length)
-    );
+    if (initialDisplayCount < tours.length) {
+      setInitialDisplayCount((prevCount) =>
+        Math.min(prevCount + 2, tours.length)
+      );
+    } else {
+      setInitialDisplayCount(3);
+    }
   };
 
   return (

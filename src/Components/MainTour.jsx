@@ -41,16 +41,21 @@ const MainTour = ({ tours, initialDisplayCount, onShowMore }) => {
               >
                 {tour.desc}
               </p>
-              <p className={style.gray + " " + style.tour_duration}>
+              <a
+                href={"/tours/" + tour.desc}
+                className={style.gray + " " + style.tour_duration}
+              >
                 {tour.days} days {tour.nights} nights
-              </p>
+              </a>
             </div>
           </div>
         ))}
       </div>
-      <button className={style.showMoreButton} onClick={onShowMore}>
-        {showMoreButtonLabel}
-      </button>
+      <div className={style.show}>
+        <button className={style.showMoreButton} onClick={onShowMore}>
+          {showMoreButtonLabel}
+        </button>
+      </div>
     </div>
   );
 };

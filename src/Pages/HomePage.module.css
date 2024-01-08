@@ -244,6 +244,7 @@ html {
   border-radius: 18px;
   position: relative;
   width: 48%;
+  z-index: -1;
 }
 .contact_details h2 {
   padding: 14px 0 0 20px;

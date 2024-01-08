@@ -1,6 +1,6 @@
 import style from "../Pages/HomePage.module.css";
 import cancelButton from "../Assets/Images/web-images/cancel_button.svg";
-/* import ellipse from "../Assets/Images/web-images/Ellipse1.svg"; */
+
 const ButtonsAfterHover = ({ handleHoverOut }) => {
   return (
     <div className={style.buttons_after_hover}>

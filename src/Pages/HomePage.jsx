@@ -24,26 +24,24 @@ export default function HomePage() {
   };
 
   return (
-    <>
-      <div className={style.container}>
-        <Header />
-        <div>
-          <img
-            className={style.img}
-            src={ShirvanshahMosque}
-            alt="shirvanshah-mosque"
-          />
-        </div>
-        <Buttons />
-        <MainTour
-          tours={tours}
-          initialDisplayCount={initialDisplayCount}
-          onShowMore={handleShowMoreLess} // Corrected prop name
+    <div className={style.container}>
+      <Header />
+      <div>
+        <img
+          className={style.img}
+          src={ShirvanshahMosque}
+          alt="shirvanshah-mosque"
         />
-        <Partners />
-        <Project />
-        <Footer />
       </div>
-    </>
+      <Buttons />
+      <MainTour
+        tours={tours}
+        initialDisplayCount={initialDisplayCount}
+        onShowMore={handleShowMoreLess} // Corrected prop name
+      />
+      <Partners />
+      <Project />
+      <Footer />
+    </div>
   );
 }

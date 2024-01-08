@@ -1,3 +1,4 @@
+import React from "react";
 import { useNavigate } from "react-router-dom";
 import style from "../Pages/HomePage.module.css";
 const ButtonsBeforeHover = ({ handleHover }) => {

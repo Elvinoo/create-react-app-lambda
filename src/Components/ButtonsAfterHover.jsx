@@ -1,3 +1,4 @@
+import React from "react";
 import style from "../Pages/HomePage.module.css";
 import cancelButton from "../Assets/Images/web-images/cancel_button.svg";
 

@@ -13,7 +13,7 @@ export default function Footer() {
             <a
               href="www.instagram.com"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className={style.norm_16px + " " + style.white_col}
             >
               Instagram
@@ -22,7 +22,7 @@ export default function Footer() {
               href="https://www.linkedin.com/company/vatrvel/"
               className={style.norm_16px + " " + style.white_col}
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Linkedin
             </a>

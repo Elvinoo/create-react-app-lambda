@@ -21,7 +21,6 @@ export default function Header() {
             href="mailto:incoming@vatravel.az"
             className={style.norm_16px + " " + style.mob_no}
           >
-            {" "}
             incoming@vatravel.az
           </a>
           <select className={style.select} name="language" id="">

@@ -8,6 +8,7 @@ import candyCane from "../Assets/Images/web-images/candy-cane.svg";
 import caravanserai from "../Assets/Images/web-images/carevansaray.svg";
 import literatureMuseum from "../Assets/Images/web-images/literature-museum.svg";
 import panorama1 from "../Assets/Images/web-images/panorama2.svg";
+
 export default function AzePhotoCont() {
   return (
     <div className={style.photo_container}>

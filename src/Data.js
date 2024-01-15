@@ -97,14 +97,10 @@ export const aboutAze = [
   },
   {
     key: "Population and Ethnicity",
-    value: `Population
-    
+    value: `Azerbaijan is a multi-ethnic country. The population is mainly composed of Azerbaijanis (approximately 90%).
         The current population of Azerbaijan is about 10 million.`,
   },
-  {
-    key: "Ethnicity",
-    value: `Azerbaijan is a multi-ethnic country. The population is mainly composed of Azerbaijanis (approximately 90%).`,
-  },
+
   {
     key: "Language",
     value: `The official language is Azerbaijani, a Turkic language, written in Azerbaijani with the Latin alphabet, which replaced the Cyrillic alphabet. There is a small Russian-speaking minority (3.5%), Lezgi (1.9%) in the north and Talish (1.8%) in the south of the country.

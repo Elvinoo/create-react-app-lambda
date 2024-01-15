@@ -6,16 +6,24 @@ export default function Header() {
     <div className={style.wrapper}>
       <header className={style.flex_justify_btw}>
         <div>
-          <img src={headLogo} alt="logo" />
+          <a href="/">
+            <img src={headLogo} alt="logo" />
+          </a>
         </div>
         <div className={style.flex_justify_btw + " " + style.right}>
-          <span className={style.norm_16px + " " + style.mob_no}>
+          <a
+            href="tel:+994515855564"
+            className={style.norm_16px + " " + style.mob_no}
+          >
             +994515855564
-          </span>
-          <span className={style.norm_16px + " " + style.mob_no}>
+          </a>
+          <a
+            href="mailto:incoming@vatravel.az"
+            className={style.norm_16px + " " + style.mob_no}
+          >
             {" "}
             incoming@vatravel.az
-          </span>
+          </a>
           <select className={style.select} name="language" id="">
             <option value="english">EN</option>
             <option value="italian">IT</option>

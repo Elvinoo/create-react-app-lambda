@@ -7,6 +7,7 @@ import ShirvanshahMosque from "../Assets/Images/web-images/shirvanshah-mosque.sv
 import Buttons from "../Components/Buttons";
 import MainTour from "../Components/MainTour";
 import { tours } from "../Data";
+
 import Partners from "../Components/Partners";
 import Project from "../Components/Contacts";
 

@@ -33,6 +33,7 @@
   margin-bottom: 27px;
 }
 .info_with_photo {
+  width: 100%;
   display: flex;
   gap: 1.5%;
   height: 90vh;
@@ -40,25 +41,76 @@
   margin-bottom: 100px;
 }
 .gen_info {
-  width: 16%;
-  padding: 37px 0 0 21px;
+  width: 18.5%;
+  padding: 37px 21px 0 21px;
   border-radius: 18px;
   background: rgba(0, 0, 0, 0.02);
   height: 70%;
 }
-.gen_info h6 {
+
+.gen_info button {
+  display: block;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   margin-bottom: 11px;
+  color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 11px;
+  border: none;
+  background: transparent;
+  outline: none;
+  color: rgba(0, 0, 0, 0.3);
+  font-family: "Space Grotesk", sans-serif;
+  padding: 0;
+  text-align: left;
 }
+
 .main_info {
-  padding: 40px 0 0 32px;
-  width: 49%;
+  padding: 40px 21px 30px 32px;
+  width: 42%;
   border-radius: 18px;
   background: rgba(0, 0, 0, 0.02);
   overflow-y: scroll; /* Enable vertical scrolling */
   max-height: 100%; /* Ensure the content doesn't overflow the container */
+}
+.main_info {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+.main_info h2 {
+  font-weight: bold;
+}
+.main_info p {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.main_info::-webkit-scrollbar {
+  width: 12px;
+}
+
+.main_info::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.main_info::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.gen_info button.selected {
+  color: rgba(0, 0, 0, 0.9);
+  border-bottom: 1px solid rgba(244, 218, 78, 1);
+  display: inline-block;
+}
+.oldCity2 {
+  height: 100%;
+}
+.smoothScroll {
+  scroll-behavior: smooth;
 }
 @media only screen and (max-width: 767px) {
   /*Mobile*/
@@ -71,20 +123,40 @@
   }
   .about_aze h3 {
     width: 100%;
+    font-size: 16px;
+    line-height: 24px;
   }
-  .info_with_photo {
-    flex-direction: column;
-    height: auto;
+  .mob_about_aze_content {
+    background-color: rgba(0, 0, 0, 0.02);
+    border-radius: 18px;
   }
-  .info_with_photo img {
-    display: none;
+  .mob_main_info {
+    margin-bottom: 18px;
   }
-  .gen_info {
-    width: 100%;
+  .mob_header_with_plus h2 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
   }
-  .main_info {
-    width: 100%;
-    max-height: 80vh;
+  .yellowUnderline {
+    border-bottom: 1px rgba(244, 218, 78, 1) solid;
+  }
+
+  .mob_about_aze_content {
     padding: 20px;
+  }
+  .mob_header_with_plus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .mob_main_info p {
+    font-family: "TT Norms Pro";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 17px;
   }
 }

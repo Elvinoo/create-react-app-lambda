@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import ButtonsAfterHover from "./ButtonsAfterHover";
 import ButtonsBeforeHover from "./ButtonsBeforeHover";
+import style from "../Pages/HomePage.module.css";
 function Buttons() {
   const [isHovered, setIsHovered] = useState(false);
 
@@ -13,7 +14,7 @@ function Buttons() {
     setIsHovered(false);
   };
   return (
-    <div className="buttons">
+    <div className={style.buttons}>
       {isHovered ? (
         <ButtonsAfterHover handleHoverOut={handleHoverOut} />
       ) : (

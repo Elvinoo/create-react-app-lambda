@@ -1,0 +1,64 @@
+.container {
+  width: 100%;
+}
+.mainImage {
+  width: 100%;
+}
+.mainImage img {
+  width: 100%;
+}
+.tours_selection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.12% 2.5%;
+  width: 100%;
+  margin: 0 auto;
+}
+.li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 320px;
+}
+.li:hover::before {
+  background-color: #ffe141;
+}
+.li span {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.selection_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.selected {
+  background: var(--Black-7, rgba(0, 0, 0, 0.1));
+}
+.selected svg {
+  fill: #ffe141;
+}
+@media only screen and (max-width: 767px) {
+  .selection_container {
+    width: 100%;
+  }
+  .tours_selection {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-start;
+  }
+  .li span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+  }
+  .li {
+    background: var(--Black-7, rgba(0, 0, 0, 0.1));
+  }
+}

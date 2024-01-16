@@ -2,6 +2,7 @@
 export const tours = [
   {
     id: 1,
+    type: "cultural",
     name: "Azerbaijan ",
     desc: "With all its colours",
     days: 8,
@@ -10,6 +11,7 @@ export const tours = [
   },
   {
     id: 2,
+    type: ["cultural", "eco"],
     name: "Azerbaijan",
     desc: "From Culture to Nature",
     days: 8,
@@ -18,6 +20,7 @@ export const tours = [
   },
   {
     id: 3,
+    type: "cultural",
     name: "Azerbaijan- Georgia",
     desc: "The important cities of the Caucasus",
     days: 10,
@@ -27,7 +30,8 @@ export const tours = [
 
   {
     id: 4,
-    name: "Azerbaijan- Georgia",
+    type: "cultural",
+    name: "Azerbaijan - Georgia",
     desc: "The Pearls of the Caucasus",
     days: 8,
     nights: 7,
@@ -36,6 +40,7 @@ export const tours = [
   {
     id: 5,
     name: "Azerbaijan",
+    type: "eco",
     desc: "The Mountain Villages",
     days: 8,
     nights: 7,
@@ -43,7 +48,8 @@ export const tours = [
   },
   {
     id: 6,
-    name: "Azerbaijan- Baku",
+    type: "cultural",
+    name: "Azerbaijan - Baku",
     desc: "The flames swaying in the wind",
     days: 8,
     nights: 7,
@@ -51,10 +57,11 @@ export const tours = [
   },
   {
     id: 7,
+    type: "health",
     name: "Azerbaijan",
     desc: "Health & Wellness",
-    days: "",
-    nights: "",
+    days: "X",
+    nights: "X",
     imagelink: "tour3.svg",
   },
 ];

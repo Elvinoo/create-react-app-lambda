@@ -6,6 +6,7 @@ import AboutAze from "./Pages/AboutAze";
 import AboutUs from "./Pages/AboutUs";
 import ContactUs from "./Pages/ContactUs";
 import ToursPage from "./Pages/ToursPage";
+import TourPage from "./Pages/TourPage";
 function App() {
   return (
     <BrowserRouter>
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" Component={HomePage} />
           <Route path="/azerbaijan" Component={AboutAze} />
           <Route path="/tours" Component={ToursPage} />
+          <Route path="/tours/:tourName" Component={TourPage} />
           <Route path="/about-us" Component={AboutUs} />
           <Route path="/contacts" Component={ContactUs} />
         </Routes>

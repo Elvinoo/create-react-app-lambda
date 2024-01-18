@@ -131,6 +131,19 @@ Overnight stay at the hotel.`,
     nights: "X",
     imagelink: "tour3.svg",
   },
+  {
+    id: 8,
+    type: "sport",
+    name: "Formula 1 Baku Circuit",
+    desc: "Sport & Event",
+    days: "7",
+    nights: "6",
+    imagelink: "tour7.svg",
+    tourProgram: {
+      headers: [],
+      bodies: [],
+    },
+  },
 ];
 
 export const aboutAze = [

@@ -30,6 +30,7 @@ export default function TourPage() {
     mudVolcanos,
     yanardagh,
   ];
+
   const { tourName } = useParams();
   const [isOpen, setIsOpen] = useState(tours.map((_, index) => index === 0));
 
@@ -40,10 +41,8 @@ export default function TourPage() {
       return newState;
     });
   };
-  const [initialDisplayCount, setInitialDisplayCount] = useState(3);
-
+  const initialDisplayCount = 3;
   const selectedTour = tours.find((tour) => tour.desc === tourName);
-  console.log("selected tour=>>> ", selectedTour.name);
   if (!selectedTour) {
     return <div>No tour found for {tourName}</div>;
   }
@@ -59,7 +58,7 @@ export default function TourPage() {
         >{`${selectedTour.name} ${selectedTour.desc}`}</h1>
         {selectedTour.tourProgram.headers.map((header, index) => (
           <div
-            key={index}
+            key={selectedTour.id}
             className={`${style.mob_main_info} ${
               isOpen[index] ? style.opened : ""
             }`}

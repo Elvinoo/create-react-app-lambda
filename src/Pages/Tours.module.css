@@ -69,6 +69,8 @@ hr {
   line-height: 21px;
   padding: 12px;
   color: rgba(0, 0, 0, 0.6);
+  border-radius: 18px;
+  background: rgba(0, 0, 0, 0.02);
 }
 @media only screen and (max-width: 767px) {
   .selection_container {

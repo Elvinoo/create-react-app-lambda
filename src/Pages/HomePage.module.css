@@ -78,6 +78,10 @@ html {
 .tour_card:hover .tour_duration {
   background-color: #f4da4e;
 }
+.tour_card:hover .tour_desc_container {
+  background-color: #eeeeee80;
+  border-radius: 29px;
+}
 .buttons_before_hover {
   position: fixed;
   bottom: 6%;

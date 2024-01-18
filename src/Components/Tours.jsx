@@ -3,6 +3,15 @@ import style from "../Pages/HomePage.module.css";
 import tourStyle from "../Pages/Tours.module.css";
 import MainImage from "../Assets/Images/web-images/toursPage1.svg";
 
+import tour1 from "../Assets/Images/web-images/tour1.svg";
+import tour2 from "../Assets/Images/web-images/tour2.svg";
+import tour3 from "../Assets/Images/web-images/tour3.svg";
+import tour4 from "../Assets/Images/web-images/tour4.svg";
+import tour5 from "../Assets/Images/web-images/tour5.svg";
+import tour6 from "../Assets/Images/web-images/tour1.svg";
+import tour7 from "../Assets/Images/web-images/tour2.svg";
+import tour8 from "../Assets/Images/web-images/tour8.svg";
+
 const Tours = ({ tours }) => {
   const [selectedType, setSelectedType] = useState("all");
 
@@ -15,10 +24,21 @@ const Tours = ({ tours }) => {
     setSelectedType(type);
   };
 
+  const imageMap = {
+    0: tour1,
+    1: tour2,
+    2: tour3,
+    3: tour4,
+    4: tour5,
+    5: tour6,
+    6: tour7,
+    7: tour8,
+  };
+
   return (
     <div className={tourStyle.container}>
       <div className={tourStyle.mainImage}>
-        <img c src={MainImage} alt="Tour Page " />
+        <img src={MainImage} alt="Tour Page " />
       </div>
       <div className={style.wrapper}>
         <div className={tourStyle.selection_container}>
@@ -113,7 +133,7 @@ const Tours = ({ tours }) => {
         <div className={style.tour_card_cont}>
           {filteredTours.map((tour) => (
             <div className={style.tour_card} key={tour.id}>
-              <img src={`./images/${tour.imagelink}`} alt={tour.name} />
+              <img src={imageMap[tour.id]} alt={tour.name} />
               <div className={style.tour_desc_container}>
                 <h3 className={`${style.medium_30px} ${style.mrgn_btm_12px}`}>
                   {tour.name}

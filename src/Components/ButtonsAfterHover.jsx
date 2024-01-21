@@ -7,7 +7,7 @@ const ButtonsAfterHover = ({ handleHoverOut }) => {
     <div className={style.buttons_after_hover}>
       <button className={style.btn + " " + style.home}>Home</button>
 
-      <div class={style.hover_menu}>
+      <div className={style.hover_menu}>
         <ul className={style.menu_hover} onMouseLeave={handleHoverOut}>
           <div className={style.li_with_btn}>
             <li className={style.li}>

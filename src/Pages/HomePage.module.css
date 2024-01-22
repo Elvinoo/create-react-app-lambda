@@ -83,6 +83,7 @@ html {
   border-radius: 29px;
 }
 .buttons_before_hover {
+  z-index: 1000;
   position: fixed;
   bottom: 6%;
   left: 39%;
@@ -92,6 +93,7 @@ html {
 }
 
 .buttons_after_hover {
+  z-index: 1000;
   width: 100%;
   position: fixed;
   bottom: 6%;
@@ -320,13 +322,14 @@ input:focus {
   }
   .buttons_before_hover {
     left: 22%;
-    bottom: 20%;
+    bottom: 5%;
   }
   .buttons_after_hover {
+    z-index: 1000;
     width: 100%;
     position: fixed;
     left: 0;
-    bottom: 20%;
+    bottom: 5%;
   }
   .buttons_after_hover button {
     display: none;

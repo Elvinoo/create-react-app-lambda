@@ -32,6 +32,37 @@
       }
     },
     {
+      "id": 1,
+      "type": ["cultural", "eco"],
+      "name": "Azerbaijan",
+      "desc": "From Culture to Nature",
+      "days": 8,
+      "nights": 7,
+      "imagelink": "tour3.svg",
+      "tourProgram": {
+        "headers": [
+          "Day 1: Airport – Baku",
+          "Day 2: Baku – Absheron (120 km)",
+          "Day 3: Baku – Guba – Khinalig – Haput (220 km)",
+          "Day 4: Haput – Goynohur",
+          "Day 5: Goynohur – Babadagh",
+          "Day 6: Babadagh – Lahij",
+          "Day 7: Lahij – Ismayilli – Shamakhi – Gobustan – Baku (230 km)",
+          "Day 8: Transfer to the airport"
+        ],
+        "bodies": [
+          "Pick up at the airport by local guide. Transfer to the hotel (25 km). Overnight stay at the hotel.",
+          "Breakfast at the hotel. Visit to the panoramic site, the highest point of Baku called the Alley of Martyrs (Upland Park during Soviet times). Here you can admire the beautiful bay of Baku which resembles that of Naples, the city with which it is twinned. Visit to the famous old city, passing in front of the elegant buildings of early 20th century built by wealthy Azerbaijani oil magnates. In the old city, visit to the several historical monuments, Shirvanshahs Palace, caravanserais, the remains of St. Bartholomew church, the old Hammam, the famous Maiden Tower and ancient mosques. Second breakfast inside the walls of the old city. Visit to Absheron peninsula. Arrival at Atashgah – fire temple in Surakhani village, religious worship place of Zoroastrians. Visit to Yanardag (burning mountain), one of the wonderful natural beauties of Azerbaijan. Return to Baku. Visit to beautiful Cultural Center designed by Zaha Hadid (*entrance fee is not included). The architecture of the building is impressive and futuristic. Visit to magnificent Azerbaijan National Carpet Museum. The building reminds a rolled carpet Overnight stay at the hotel.",
+          "Breakfast at the hotel. Departure to Guba, located in the north of Azerbaijan. On the way, short stop to see the candy-cane mountains in Khizi district. Arrival in Guba. Visit to Red Town (Krasnaya Sloboda), the largest quarter of mountain Jews in Azerbaijan, who moved there within 6 days in 1744. Visit to the synagogue of 19th century. Lunch at the restaurant. Departure to Khinalig village. Khinalig is one of the most remote and highest villages in the Caucasus, offering an impressive visit every time. With its inaccessibility, unique language, architectural appearance and particular culture, the village attracts tourists and travelers. Visit to Khinalig History Museum. Start with the cars in Haput village. Dinner. Overnight stay at a villager’s house.",
+          "Breakfast. Preparation for trekking. You will not see a tree or a bathroom in 3 days. Climb with the mountain off-road cars. From a certain point on, you will go on foot towards Goynohur. There are two mountain lakes located in 3300 meters above the sea level. The basin of bigger lake is about 350 m. Lunch in summer pasture. Arrival at Goynohur Lake passing through the pastures. Tents are pitched near Goynohur. Dinner by the fire. Overnight stay in the tents.",
+          "Wake up early in the morning. Breakfast. Preparation for departure. On this day you will see one of the highest mountains of Azerbaijan. Tea break in the pasture. Departure to mountain lake called Goturnohur, close to Babadagh. The lake is mainly fed by rain water and melted ice water. It is located at 3100 meters above sea level. Garachay river (in Guba district) takes its origin from Goturnohur lake. You can have lunch near the lake. Free time. Start towards Babadagh. Its peak is between Ismayilli and Guba districts. There are three great rivers - Girdimanchay, Velvelechay and Garachay. We reach at the slope of Babadag and pitch the tents. Dinner by the fire. Overnight stay in the tents.",
+          "Wake up early in the morning. Breakfast. Preparation for departure. We will begin climbing to the peak of Babadagh mountain. Free time at the top. Lunch break. Departure to Lahij village. It is in the territory of Ismayilli district. Visit to Qurbangah, a sacred place for locals to sacrifice sheep to God. Tea break and departure to Lahij village by GAZ 66 (a Soviet vehicle). Free time. Dinner and overnight stay in the guest house.",
+          "Wake up early in the morning. Breakfast. Walking in Lahij village. It is a small village at the foot of the mountains and famous for copper processing. After the walking, we depart to Baku. On the way, stop in Shamakhi district, once the capital of the Shirvanshahs State. Visit to the oldest mosque of Azerbaijan and the Diri Baba Mausoleum built between the rocks in 1402. Lunch. Departure to Gobustan, protected area 60 km from Baku. It is the UNESCO heritage site, where there are more than 7000 rock paintings. Visit to the contemporary museum where there are explanations with the help of modern technology, as well as photos, videos, samples of the engraved stones. Acquaintance with the daily life of primitives, such as hunting, feeding and burial scenes. Visit to the Roman Stone engraved by the Roman soldiers. Continue to the rocks where there are several samples of rock art. Visit to the mud volcanoes, one of the natural beauties of Azerbaijan. There are more than a hudred volcanoes with different heights, which make a lunar effect. Arrival in Baku. Visit to Bibi-Heybat Mosque. Dinner and overnight stay at the hotel.",
+          "Transfer to the Airport of Baku"
+        ]
+      }
+    },
+    {
       "id": 2,
       "type": "cultural",
       "name": "Azerbaijan-Georgia",
@@ -40,8 +71,30 @@
       "nights": 9,
       "imagelink": "tour2.svg",
       "tourProgram": {
-        "headers": [],
-        "bodies": []
+        "headers": [
+          "Day 1:  Arrival in Azerbaijan ",
+          "Day 2:  Baku – Gobustan (60 Km)",
+          "Day 3: Baku – Absheron (60 km)",
+          "Day 4: Baku – Shamakhi - Sheki (300 km)",
+          "Day 5: Sheki – Goygol – Ganja (170 km)",
+          "Day 6: Ganja – Georgia, Tbilisi (170 km)",
+          "Day 7: Tbilisi",
+          "Day 8: Tbilisi – Mtskheta – Ananuri – Gudauri",
+          "Day 9: Gudauri – Kazbegi – Tbilisi",
+          "Day 10: Georgia (Tbilisi) – Destination Country"
+        ],
+        "bodies": [
+          "Pick up at the airport by local guide; Transfer to the hotel (25 km); Overnight stay at the hotel.",
+          "Breakfast at the hotel. Visit to the panoramic site, the highest point of Baku called the Alley of Martyrs (Upland Park during Soviet times). Here you can admire the beautiful bay of Baku which resembles that of Naples, the city with which it is twinned. Visit to the famous old city, passing in front of the elegant buildings of early 20th century built by wealthy Azerbaijani oil magnates. In the old city, visit to the several historical monuments, Shirvanshahs Palace, caravanserais, the remains of St. Bartholomew church, the old Hammam, the famous Maiden Tower and ancient mosques. Lunch inside the walls of the old city. Departure to Gobustan, protected area 60 km from Baku. It is the UNESCO heritage site, where there are more than 7000 rock paintings. Visit to the contemporary museum where there are explanations with the help of modern technology, as well as photos, videos, samples of the engraved stones. Acquaintance with the daily life of primitives, who lived thousand years ago, such as hunting, feeding and burial scenes. Visit to the Roman Stone engraved by the Roman soldiers BC. Continue to the rocks where there are several samples of rock art. Visit to the mud volcanoes, one of the natural beauties of Azerbaijan. There are more than a hundred volcanoes with different heights, which make a lunar effect and continuously erupt liquid and mud. Visit to Bibi-Heybat Mosque. Dinner at the restaurant. Overnight stay at the hotel.",
+          "Breakfast at the hotel. Visit to Absheron peninsula. Arrival at Atashgah – fire temple in Surakhani village, religious worship place of Zoroastrians. Visit to Mardakan Fortress. Visit to Mirmovsum Aga Mausoleum in Shuvelan village, famous for its gold and silver mirror decoration. Lunch. Visit to Yanardag (burning mountain), one of the wonderful natural beauties of Azerbaijan. Return to Baku. Visit to beautiful Cultural Center designed by Zaha Hadid (*entrance fee is not included). The architecture of the building is impressive and futuristic. Visit to magnificent Azerbaijan National Carpet Museum. The building reminds a rolled carpet. Dinner at the hotel. Baku night excursion to the beautiful viewpoints. Overnight stay at the hotel.",
+          "Breakfast at the hotel. Departure to Sheki. Stop at the Diri Baba Mausoleum built between the rocks in 1402. Stop in Shamakhi, once the capital of the Shirvanshahs State. Visit to the oldest mosque in Azerbaijan. Visit to the impressive Yeddi Gumbaz mausoleum. Lunch. Visit to the Orthodox Church in Nij village. Arrival in Sheki. Dinner. Overnight stay.",
+          "Breakfast at the hotel. Departure to Kish village, where you will visit the Paleo-Christian church built between 1st and 5th centuries during the era of the ancient kingdom of the Caucasian Albania. Visit to the beautiful Khan Palace, which is famous for its rich decorations, the Sheki House of Artisans, the magnificent Caravanserai. Lunch at the restaurant. Departure to Goygol (190km). Visit to the German quarter where located original German houses of 19th century and the Lutheran Church. Departure to Ganja, the second largest city of Azerbaijan. Dinner at the restaurant. Overnight stay at the hotel.",
+          "Breakfast at the hotel. In Ganja, in the city center, visit to the Shah Abbas Mosque (Juma Mosque), the Mausoleum of Javad Khan, the Chokek Hamam, Government Square, Nizami Mausoleum (famous poet of Azerbaijani literature), and Imamzadeh mausoleum. Lunch at the restaurant. Immediately after lunch, departure to the border with Georgia. Arrival at the border around 18:00. Customs formalities, change of the guide and the means of transport. Transfer to Tbilisi. Hotel accommodation. Dinner and overnight stay.",
+          "Breakfast. The day is dedicated to discover the capital of Georgia – Tbilisi. The city offers a great variety of monuments, mostly ancient. Visits to the Sulphur Baths, the Botanical Garden, the Narikala Fortress (4th century, one of the oldest fortifications in the city), the Synagogue, the Sioni Cathedral (7th century), and the Anchiskhati Basilica (6th century). Visit to the splendid Archaeological Treasure of the National Museum of Georgia. Walk along Rustaveli Avenue, the main street of Tbilisi. Back to the hotel. Dinner at the typical Georgian restaurant with folklore show.",
+          "Breakfast. Departure to Mtskheta, the ancient capital and religious center of Georgia. Visit to the Jvari Church (6-7th century) and the Svetitskhoveli Cathedral (11th century). Christ’s robe is believed to lie beneath the central nave. Both are the UNESCO heritage sites. Continue to the beautiful landscapes of the Great Caucasus Mountains along the Great Georgian Military Highway. On the way, visit to the Ananuri Complex (17th century). The scene is very picturesque, which rises up towards the Caucasus mountains. Arrival in Gudauri. Hotel accommodation. Dinner and overnight stay.",
+          "Breakfast at the hotel. Marvelous path along the Tergi River taking you to Kazbegi, the main municipality of the region. An hour and a half quiet walk from Kazbegi to the magnificent valleys and beautiful forests in 500 m difference in height. It will lead you to the Gergeti Trinity Church, located at the height of 2170 m. If weather permits, you can take a look at one of the highest glaciers in the Caucasus, Mount Kazbegi (5047 m). Return to Tbilisi after the visits. Accommodation at the hotel and overnight stay.",
+          "Transfer to the Tbilisi airport."
+        ]
       }
     },
     {
@@ -53,8 +106,26 @@
       "nights": 7,
       "imagelink": "tour4.svg",
       "tourProgram": {
-        "headers": [],
-        "bodies": []
+        "headers": [
+          "Day 1: Arrival in Azerbaijan",
+          "Day 2: Baku – Gobustan (60 km)",
+          "Day 3: Baku – Absheron (60 km)",
+          "Day 4: Baku – Shamakhi – Sheki (300 km)",
+          "Day 5: Sheki – Lagodekhi (110km) (Gateway to Georgia) – Tbilisi",
+          "Day 6: Tbilisi",
+          "Day 7: Tbilisi – Mtskheta – Gori – Uplistsikhe – Tbilisi",
+          "Day 8: Georgia (Tbilisi) – Destination Country"
+        ],
+        "bodies": [
+          "Pick up at the airport by  local guide; Transfer to the hotel (25 km); Overnight stay at the hotel.",
+          "Breakfast at the hotel. Visit to the panoramic site, the highest point of Baku called the Alley of Martyrs (Upland Park during Soviet times). Here you can admire the beautiful bay of Baku which resembles that of Naples, the city with which it is twinned. Visit to the famous old city, passing in front of the elegant buildings of early 20th century built by wealthy Azerbaijani oil magnates. In the old city, visit to the several historical monuments, Shirvanshahs Palace, caravanserais, the remains of St. Bartholomew church, the old Hammam, the famous Maiden Tower and ancient mosques. Lunch inside the walls of the old city. Departure to Gobustan, protected area 60 km from Baku. It is the UNESCO heritage site, where there are more than 7000 rock paintings. Visit to the contemporary museum where there are explanations with the help of modern technology, as well as photos, videos, samples of the engraved stones. Acquaintance with the daily life of primitives, who lived thousand years ago, such as hunting, feeding and burial scenes. Visit to the Roman Stone engraved by the Roman soldiers BC. Continue to the rocks where there are several samples of rock art. Visit to the mud volcanoes, one of the natural beauties of Azerbaijan. There are more than a hundred volcanoes with different heights, which make a lunar effect and continuously erupt liquid and mud. Visit to Bibi-Heybat Mosque. Dinner at the restaurant. Overnight stay at the hotel.",
+          "Breakfast at the hotel. Visit to Absheron peninsula. Arrival at Atashgah – fire temple in Surakhani village, religious worship place of Zoroastrians. Visit to Mardakan Fortress. Visit to Mirmovsum Aga Mausoleum in Shuvelan village, famous for its gold and silver mirror decoration. Lunch. Visit to Yanardag (burning mountain), one of the wonderful natural beauties of Azerbaijan. Return to Baku. Visit to beautiful Cultural Center designed by Zaha Hadid (*entrance fee is not included). The architecture of the building is impressive and futuristic. Visit to magnificent Azerbaijan National Carpet Museum. The building reminds a rolled carpet. Dinner at the hotel. Baku night excursion to the beautiful viewpoints. Overnight stay at the hotel. ",
+          "Breakfast at the hotel. Departure to Sheki. Stop at the Diri Baba Mausoleum built between the rocks in 1402. Stop in Shamakhi, once the capital of the Shirvanshahs State. Visit to the oldest mosque in Azerbaijan. Visit to the impressive Yeddi Gumbaz mausoleum. Lunch. Visit to the Orthodox Church in Nij village. Arrival in Sheki. Dinner. Overnight stay.",
+          "Breakfast at the hotel. Departure to Kish village, where you will visit the Paleo-Christian church built between 1st and 5th centuries during the era of the ancient kingdom of the Caucasian Albania. Visit to the beautiful Khan Palace, which is famous for its rich decorations, the Sheki House of Artisans, the magnificent Caravanserai. Lunch at the restaurant. Departure to the border with Georgia. Arrival at the border at 17:00. Customs formalities, change of the guide and the means of transport. Transfer to Tbilisi. Hotel accommodation.",
+          "Breakfast. Visit to the fascinating capital of Georgia. Today Tbilisi is an important industrial, commercial and sociocultural center. Strategically located at the crossroads between Europe and Asia, on the historic “Silk Road”. Visit to the most important viewpoints of the city: Metekhi church (13th century), Narikala Fortress (4th century, one of the oldest fortifications of the city), the Sulphur Baths, the Synagogue, the Sioni Cathedral and the Anchiskhati Basilica (6th century). Visit to the Archaeological Treasure of the National Museum of Georgia. Lunch. Walk along Rustaveli Avenue of the 19th century, the city's heart, named after the great Georgian poet Shota Rustaveli (12th century). Here located Moorish-style Opera House, the Baroque-style Rustaveli Theatre, Viceroy’s Palace, the Parliament, numerous cafes, restaurants, stores of the most prestigious international fashion brands. Overnight stay at the hotel in Tbilisi.",
+          "Breakfast. Departure to Mtskheta, the ancient capital and religious center of Georgia. Visit to the Jvari Church and the Svetitskhoveli Cathedral. Christ’s robe is believed to lie beneath the central nave. Both are the UNESCO heritage sites. Departure to Gori, the birthplace of Stalin. Short stop at the Stalin museum. Continue westwards to reach the picturesque rock town of Uplistsikhe, near Gori, one of the oldest settlements in the Caucasus. Founded in late Bronze Age and was one of the main political and religious centers of pre-Christian Kartli, with temples mainly dedicated to the sun goddess. Return to Tbilisi. Overnight stay at the hotel in Tbilisi.",
+          "Transfer to the Tbilisi airport."
+        ]
       }
     },
     {
@@ -66,8 +137,26 @@
       "nights": 7,
       "imagelink": "tour5.svg",
       "tourProgram": {
-        "headers": [],
-        "bodies": []
+        "headers": [
+          "Day 1: Flight to Baku ",
+          "Day 2: Baku - Gobustan (60 km)",
+          "Day 3: Baku - Guba - Yukhari Khanagah - Girdah - Daligaya (170 km) (length: 10 km)",
+          "Day 4: Daligaya – Sohub – Adur (length 19 km; 9 km of which on foot; maximum height: 2030 m)",
+          "Day 5:  Adur – Haput (length 13 km; maximum height: 2780 m)",
+          "Day 6: Haput – Khinalig (length 10 km; maximum height 2500 m)",
+          "Day 7: Khinalig – Guba – Baku",
+          "Day 8: Azerbaijan (Baku) – Destination Country"
+        ],
+        "bodies": [
+          "Pick up at the airport by local guide. Transfer to the hotel (25 km). Overnight stay at the hotel.",
+          "Breakfast at the hotel. Visit to the panoramic site, the highest point of Baku called the Alley of Martyrs (Upland Park during Soviet times). Here you can admire the beautiful bay of Baku which resembles that of Naples, the city with which it is twinned. Visit to the famous old city, passing in front of the elegant buildings of early 20th century built by wealthy Azerbaijani oil magnates. In the old city, visit to the several historical monuments, Shirvanshahs Palace, caravanserais, the remains of St. Bartholomew church, the old Hammam, the famous Maiden Tower and ancient mosques. Lunch inside the walls of the old city. Departure to Gobustan, protected area 60 km from Baku. It is the UNESCO heritage site, where there are more than 7000 rock paintings. Visit to the contemporary museum where there are explanations with the help of modern technology, as well as photos, videos, samples of the engraved stones. Acquaintance with the daily life of primitives, who lived thousand years ago, such as hunting, feeding and burial scenes. Visit to the Roman Stone engraved by the Roman soldiers BC. Continue to the rocks where there are several samples of rock art. Visit to the mud volcanoes, one of the natural beauties of Azerbaijan. There are more than a hundred volcanoes with different heights, which make a lunar effect and continuously erupt liquid and mud. Visit to Bibi-Heybat Mosque. Dinner at the restaurant. Overnight stay at the hotel.",
+          "Breakfast at the hotel. Departure to Guba, the district located in the north of Azerbaijan. Arrival in Yukhari Khanagah village (at: 860 m). Tea break and preparation for trekking. Start of the trekking tour. Arrival in Girdah village after 3 km walking (at: 1200 m). Lunch break near Girdah waterfall. Departure to Daligaya village (at: 1740 m). Arrival at villager's house. Dinner. Overnight stay.",
+          "Wake up early in the morning. Breakfast. Start towards the village of Sohub greeting Daligaya village from another point. Passing through Qarachay Canyon, you reach the Sohub Tower (XI-XII c.), admiring beautiful landscapes. Lunch in Sohub village (at: 1680 m). Free time. Tour to Adur village with the mountain cars (at: 1900 m). Walking in the village. Free time. Dinner. Overnight stay at a villager’s house.",
+          "Wake up early in the morning. Breakfast. Departure to Haput village (height: 1925 m). On the way to Dovshangala Peak (2780 m) you will see valleys, villages and mountain rivers. After passing through the plains and seeing sheep flock, we arrive at a shepherd's tent waiting for us for lunch. Continuation of the journey after the lunch made by a shepherd. Arrival in Haput village. Free time. Dinner. Overnight stay at a villager's house.",
+          "Wake up early in the morning. Breakfast. View of Shahdagh and Qizilqaya plateau. Departure from Haput village to Khinalig village. Free time on the mountain pass. Arrival in Khinalig village (2200 m) in the afternoon. Khinalig is one of the most remote and highest villages in the Caucasus, offering an impressive visit every time. With its inaccessibility, unique language, architectural appearance and particular culture, the village attracts tourists and travelers. Lunch. Visit to Khinaligh History Museum. Dinner. Overnight stay at a villager’s house.",
+          "Breakfast. End of the trekking tour. Departure to Guba with minivan. On the way, view of particular rocks of the mountains. Arrival in Guba. Visit to the Red Town (Krasnaya Sloboda), largest quarter of mountain Jews in Azerbaijan. Visit to the synagogue of 19th century. Lunch at the restaurant. Departure to Baku. On the way, small stop to see the candy-cane mountains in the Khizi district. Arrival in Baku. Dinner at the restaurant. Excursion to the most beautiful viewpoints of Baku city. Overnight stay at the hotel.",
+          "Transfer to the airport."
+        ]
       }
     },
     {
@@ -103,8 +192,28 @@
       "nights": "X",
       "imagelink": "tour3.svg",
       "tourProgram": {
-        "headers": [],
-        "bodies": []
+        "headers": [
+          "Treatment with Naftalan is a potent and effective therapy.",
+          "Naftalan treatment",
+          "In addition to bath and lubrication, the treatment of mothballs includes:",
+          "Procedures applied in the sanatorium:",
+          "Treatment with Naftalan is effective for a number of diseases:",
+          "CHENOT GABALA IS YOUR LUXURY WELLNESS CENTER",
+          "Who is it for?",
+          "Who is it for?",
+          "Who is it for?"
+        ],
+        "bodies": [
+          "70 diseases, including musculoskeletal and nervous diseases, skin, blood vessels, female and male diseases. Because of the unique therapeutic properties of naphthalan, the treatment contributes to the reabsorption of inflammatory processes, reduces pain, improves blood circulation and metabolic processes. Currently, the treatment with naphthalene is carried out with the help of the most recent methods: distilled naphthalene, naphthalene fractions and naphthalan hydrocarbons in combination with heat and ultraviolet irradiation. Sanatorium Naftalan offers a modern treatment with naphthalan baths (common, sedentary, chamber) and lubricants based on naphtha, followed by heating with a Sollux lamp. For baths is used original mothball (natural) and for lubrication, even mothballs without resin (purified). The decanted naphthalene does not irritate the mucous membranes, therefore, it is used successfully both on the skin and in the form of tampons and baths, as well as to lubricate the mucous membranes of the gums, the throat, the nose and the ultraphonophoresis in the form of inhalations of oil.",
+          "The total duration of treatment is up to 20 days. During this period, patients take 10-15 sessions of baths with mandatory pauses, under the supervision of medical specialists. Naftalan baths last from 8 to 10 minutes. The patient is placed in a bath filled with mothball oil, heated to a temperature of 37 to 38 ° C. Through the pores the oil penetrates into the blood and then returns with sweaty secretions. At the same time, along with the sweaty secretions, come out all the harmful substances for the body. Next, the patient must wash the oil in the shower and go to bed, as the process of releasing the oil with harmful substances will continue in addition to the baths. Naftalan lubricants are prescribed for a specific part of the body, depending on the disease. The body area is lubricated with a preheated mothball and heated by a Solux lamp from a distance of 75-100 cm for a duration of 10-20 minutes. The course of treatment is 15 to 20 procedures.",
+          "Vaginal swabs - cotton swabs, abundantly moistened with dextrinated mothball 50 - 55 ° C, which are inserted into the vagina for 45 - 60 min. In the course of treatment 15 to 20 swabs; Rectal microclysms (12 to 20 ml each); Degfected naphthalene ulcerophoresis (naphthalan is used as a contact substance). To increase the effectiveness of treatment with naphthalan is carried out in a complex with additional procedures, which are selected and prescribed individually after a detailed examination. For the exams in the sanatorium there is a modern functional diagnostic room, a clinical diagnostic and biochemical laboratory.",
+          "Naftalan Baths; iodine-bromine baths; Naftalan applications; Naftalan pads; paraffin treatment; hand massage; vibromassage; physical therapeutic training; underwater extension; physiotherapy of the apparatus",
+          "Diseases of the musculoskeletal and musculoskeletal system:Rheumatic arthritis and polyarthritis; gouty polyarthritis; Brucella polyarthritis; post-traumatic polyarthritis; deforming arthrosis; spinal osteochondrosis; spondylosis of the vertebral column; Ankylosing spondylitis; myositis, myalgia, bursitis, tendovaginitis, myofascitis, etc. Diseases of the peripheral nerve:Neuritis; neuralgia; sciatica; plexiti. Diseases of the peripheral nerve: Erasing endartermitis and spilled arteriosclerosis of the lower limbs; varicose veins of the lower limbs; thrombophlebitis of the superficial and deep veins of the lower limbs; Raynaud's disease. Skin diseases: Psoriasis; eczema; neurodermatitis; allergic dermatitis. Gynecological diseases: Inflammatory diseases of the female genital sphere (adnexitis, salpingo-oophoritis, parametrite, perimetrite, metritis, etc.); ovarian dysfunction; primary and secondary sterility; pelvic peritoneal adhesions. Chronic prostatitis: Treatment with Naftalan is performed outside the disease exacerbation stage.",
+          "The Chenot Gabala Center is a structure of excellence that offers personalized medical, aesthetic and diet programs and treatments. In the Chenot Gabala Center it is possible to follow preventive programs and specific treatments aimed at energy recovery, cell regeneration, weight loss and rejuvenation, according to an integrated medical-scientific approach. Located in a luxury hotel and resort, the Centro Chenot Gabala has been awarded by the international press with the most prestigious awards. Organized in departments within which highly qualified doctors and therapists operate, they are divided into 3 categories. The Detoxsi program is based on the principle of organic detoxination: a deep cleansing of the body to free it from the waste that also accumulates due to a life and an irregular diet. It provides a personalized detoxifying nutritional program, and energy, hydro-energetic and specific draining treatments to rebalance circulation and energy flows. The individually planned care is accompanied by the constant monitoring of specialized medical personnel.",
+          "Dedicated to those who have overweight problems, with all the consequences that derive from the problems of posture and joint, to circulatory and cardiac problems. For those with stress problems and disorders related to them: hypertension, anxiety and depression, skin diseases, cardio-cerebro-vascular and muscular disorders, sexual disorders, sleep and digestive. The energy program is a program for those who need to recover the essential energy to balance their vitality. It provides an individual nutritional program. Includes integral care treatments further expanded by a daily program of physical exercises with personal trainers and groups. The individually planned care is accompanied by the constant monitoring performed by the specialized medical personnel.",
+          "Bad eating habits and a lifestyle that does not respect our genetic heritage could affect our health. Prevention aims to reduce these risks. The treatment is programmed for anyone who wants to restore a good level of energy and vitality often threatened by stress, anxiety, improper nutrition and sleep disorders. Also dedicated to those who feel overweight and tired and who would like to restore a healthy lifestyle. The regenerating program fights the aging process that proceeds in a well-defined way and its negative effects start to be evident after the age of thirty-five. It slows the general metabolism and therefore the activity of the thyroid hormones. Not only that, with advancing age, the sex hormones decrease, they slow down the digestive functions, they dehydrate the tissues and the muscles and joints are stiffened, the functioning of the immune system decreases, which struggles to recognize the infectious agents, reacting only partially against them, toxins accumulate between the cells. The regenerating anti-age treatment includes a hormone analysis, specific for men or women, an examination of the body composition that measures fat and lean mass and bone density. The detoxifying or energetic diet will be established according to the individual needs of each. The individually planned care is accompanied by the constant monitoring performed by the specialized medical personnel.",
+          "Today modern anti-aging medical science offers solutions and products able to slow down aging processes, giving the body a new youth. The program is recommended for anyone who wants to be guided through the main concepts of the aging process, for those who have hormone imbalances and want to restore the natural balance of their body."
+        ]
       }
     },
     {

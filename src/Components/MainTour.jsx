@@ -4,10 +4,10 @@ import rightArrow from "../Assets/Images/web-images/Vector5.svg";
 import tour1 from "../Assets/Images/web-images/tour1.svg";
 import tour2 from "../Assets/Images/web-images/tour2.svg";
 import tour3 from "../Assets/Images/web-images/tour3.svg";
-import tour4 from "../Assets/Images/web-images/tour4.svg";
+import tour4 from "../Assets/Images/web-images/tour6.svg";
 import tour5 from "../Assets/Images/web-images/tour5.svg";
-import tour6 from "../Assets/Images/web-images/tour1.svg";
-import tour7 from "../Assets/Images/web-images/tour2.svg";
+import tour6 from "../Assets/Images/web-images/tour7.svg";
+import tour7 from "../Assets/Images/web-images/tour9.svg";
 import tour8 from "../Assets/Images/web-images/tour8.svg";
 
 const MainTour = ({ tours, initialDisplayCount, onShowMore }) => {
@@ -15,7 +15,7 @@ const MainTour = ({ tours, initialDisplayCount, onShowMore }) => {
 
   const showMoreButtonLabel =
     tours.length > initialDisplayCount ? "Show more" : "Show less";
-  const imageArray = [tour1, tour2, tour3, tour4, tour5, tour6, tour7, tour8];
+  const imageArray = [tour2, tour3, tour1, tour4, tour5, tour6, tour7, tour8];
 
   return (
     <div className={style.wrapper}>

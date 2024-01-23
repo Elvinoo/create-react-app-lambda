@@ -11,7 +11,7 @@ export default function Footer() {
           </div>
           <div className={style.flex_justify_btw + " " + style.right}>
             <a
-              href="www.instagram.com"
+              href="https://www.instagram.com/vatravel.az?igsh=MXd5OWdhdmlpczN5dA=="
               target="_blank"
               rel="noopener noreferrer"
               className={style.norm_16px + " " + style.white_col}
@@ -27,10 +27,9 @@ export default function Footer() {
               Linkedin
             </a>
             <a
-              href="www.facebook.com"
+              href="https://www.facebook.com/profile.php?id=100071157246416&mibextid=JRoKGi"
               className={style.norm_16px + " " + style.white_col}
-              target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Facebook
             </a>

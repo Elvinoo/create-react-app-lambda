@@ -32,13 +32,25 @@ const ButtonsAfterHover = ({ handleHoverOut }) => {
           </li>
         </ul>
         <div className={style.mob_hover_menu}>
-          <a href="www.instagram.com">
+          <a
+            href="https://www.instagram.com/vatravel.az?igsh=MXd5OWdhdmlpczN5dA=="
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h6>Instagram</h6>
           </a>
-          <a href="www.linkedin.com">
+          <a
+            href="https://www.linkedin.com/company/vatrvel/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h6>Linkedin</h6>
           </a>
-          <a href="www.facebook.com">
+          <a
+            href="https://www.facebook.com/profile.php?id=100071157246416&mibextid=JRoKGi"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h6>Facebook</h6>
           </a>
         </div>
